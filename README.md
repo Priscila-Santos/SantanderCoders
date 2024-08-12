@@ -1,6 +1,6 @@
 # Exercícios sobre Logica de Programação
 
-Exercicio 1
+### Exercicio 1
 
 Crie um programa que pergunte qual a altura em metros e peso em Kg desta pessoa e retorne o IMC e a classificação deste IMC.
 
@@ -15,7 +15,8 @@ Informe sua altura em metros?
 Informe seu peso em Kg?
 72,2
 O valor do seu IMC é 20 (considerado Peso normal)
-Exercicio 2
+
+### Exercicio 2
 
 Faça um programa que peça para o usuário quantas provas eles fez, depois pergunte para ele a nota inteira, de 0 a 100, de cada prova, e retorne a média, a maior nota e a menor nota entre as provas informadas. Exemplo:
 
@@ -34,13 +35,14 @@ Informe a nota da prova 5:
 A menor nota é: 50
 A maior nota é: 90
 A média das notas é: 71
-Exercicio 3
+
+### Exercicio 3
 
 Faça um programa que pede para a usuária digitar um número inteiro positivo. Seu programa deverá responder a soma de do número com todos os seus antecessores positivos.
 
 Ex: se o número digitado for 5, a conta a ser realizada será 5 + 4 + 3 + 2 + 1, e o resultado na tela será "15".
 
-Exercicio 4
+### Exercicio 4
 
 Faça um programa que imprima os números de 1 a 100, porém com as seguintes condições:
 
@@ -65,7 +67,7 @@ Fizz
 14
 FizzBuzz
 ...
-Exercicio 5
+### Exercicio 5
 
 Crie um enum chamado UnidadeTemperatura representando unidades de temperatura (CELSIUS, FAHRENHEIT, KELVIN).
 
@@ -77,7 +79,7 @@ FAHRENHEIT: C -> (fehrenheit - 32) * 5 / 9 k -> (fehrenheit + 459.67) * 5 / 9
 
 OBS: Utilizar Enum com metodos abstratos (desafio)
 
-Exercicio 6
+### Exercicio 6
 
 Pergunte para a usuária o valor que será investido em uma aplicação, a taxa de juros ao mês e o tempo que o dinheiro ficará aplicado.
 
@@ -97,7 +99,8 @@ Informe o tempo em meses que o dinheiro ficará investido.
 Mês 1: Juros: R$ 500.0 , saldo: 10500.0 
 Mês 2: Juros: R$ 525.0 , saldo: 11025.0 
 Mês 3: Juros: RS 551.25 , saldo: 11576.25 
-Exercicio 7
+
+### Exercicio 7
 
 Crie um programa em Java que recebe o tamanho da linha e coluna para definir uma matriz de números inteiros, na sequência, solicitar ao usuário os valores de cada elemento e logo depois, encontrar o maior elemento dentro desta matriz e informar ao usuário.
 
@@ -105,7 +108,7 @@ Exemplo de entrada: [1,50,6][55,100,2][20,7,9]
 
 Saída: O maior elemento da matriz é: 100
 
-Exercicio 8
+### Exercicio 8
 
 Escreva um programa Java que declara uma matriz 3x3 e pede ao usuário para informar seus valores. Em seguida mostre todos os valores da matriz e a soma dos elementos da diagonal principal. Sua saída deverá ser parecida com a abaixo:
 
@@ -115,7 +118,7 @@ Escreva um programa Java que declara uma matriz 3x3 e pede ao usuário para info
 
 Os valores da diagonal principal são 1, 5, 9 e a soma é: 15
 
-Exercicio 9
+### Exercicio 9
 
 Implemente um programa que realiza a leitura de um arquivo. Utilize try-catch para lidar com possíveis exceções de leitura do arquivo e garanta que o arquivo seja fechado no bloco finally.
 
@@ -123,6 +126,6 @@ Biblioteca para leitura:
 
 BufferedReader FileReader
 
-Exercicio 10
+### Exercicio 10
 
 Crie um programa que solicite ao usuário para digitar uma frase ou número, realize a leitura e utilize um bloco try-catch para verificar se a string representa um número inteiro válido.
